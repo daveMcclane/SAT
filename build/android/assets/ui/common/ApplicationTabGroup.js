@@ -1,1 +1,0 @@
-function ApplicationTabGroup(e){var t=Ti.UI.createTabGroup(),i=new e(L("home")),r=new e(L("settings")),n=Ti.UI.createTab({title:L("home"),icon:"/images/KS_nav_ui.png",window:i});i.containingTab=n;var o=Ti.UI.createTab({title:L("settings"),icon:"/images/KS_nav_views.png",window:r});return r.containingTab=o,t.addTab(n),t.addTab(o),t}module.exports=ApplicationTabGroup;

@@ -1,1 +1,0 @@
-function ApplicationWindow(e){var t=Ti.UI.createWindow({title:e,backgroundColor:"white"}),i=Ti.UI.createButton({height:44,width:200,title:L("openWindow"),top:20});return t.add(i),i.addEventListener("click",function(){t.containingTab.open(Ti.UI.createWindow({title:L("newWindow"),backgroundColor:"white"}))}),t}module.exports=ApplicationWindow;
